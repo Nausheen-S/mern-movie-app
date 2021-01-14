@@ -10,7 +10,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npmrun install-client && npm run build"
   },
   "engines": {
-    "node": "14.3.0",
+    "node": "14.3.0"
   },
   "main": "index.js",
   "license": "MIT",
