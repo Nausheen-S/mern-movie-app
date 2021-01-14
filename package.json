@@ -9,6 +9,9 @@
     "install-client": "cd client && npm install",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npmrun install-client && npm run build"
   },
+  "engines": {
+    "node": "14.3.0",
+  },
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
